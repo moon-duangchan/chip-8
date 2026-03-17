@@ -90,7 +90,7 @@ int opcode()
          printf("Case 0x5: SE V[%X], V[%X]\n", x, y);
          if(V[x]== V[y])
          {
-           pc+2;
+           pc+=2;
          }
          break;
        case 0x6:
